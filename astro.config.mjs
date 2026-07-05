@@ -8,9 +8,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
 const owner = process.env.GITHUB_REPOSITORY_OWNER ?? '';
-const isUserSite = repoName.endsWith('.github.io');
 const site = process.env.SITE_URL || (process.env.GITHUB_ACTIONS && owner ? `https://${owner}.github.io` : 'https://example.com');
-const base = process.env.BASE_PATH || (process.env.GITHUB_ACTIONS && repoName ? (isUserSite ? '/' : `/${repoName}/`) : '/');
+const base = process.env.BASE_PATH || (process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : '/');
 
 // https://astro.build/config
 export default defineConfig({
