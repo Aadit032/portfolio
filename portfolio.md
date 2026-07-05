@@ -44,7 +44,7 @@ I prefer learning by **building** rather than following tutorials. Most of my pr
 
 Email me at: codexbuild.dev@gmail.com
 
-Github: https://github.com/Aaidt
+Github: https://github.com/Aadit032
 
 LinkedIn: https://www.linkedin.com/in/aadit-suryawanshi-542222316
 

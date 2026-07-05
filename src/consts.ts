@@ -3,7 +3,7 @@ export const SITE_DESCRIPTION =
 	'I build language models from first principles, experiment with ML systems, and write about the engineering lessons along the way.';
 
 export const SOCIAL_LINKS = [
-	{ label: 'GitHub', href: 'https://github.com/Aaidt', icon: 'github' },
+	{ label: 'GitHub', href: 'https://github.com/Aadit032', icon: 'github' },
 	{
 		label: 'LinkedIn',
 		href: 'https://www.linkedin.com/in/aadit-suryawanshi-542222316',

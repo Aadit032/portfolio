@@ -4,7 +4,7 @@ This article is a collection of the lessons I learned along the way.
 TLDR
 Trained a 25M parameter LLM from scratch on 500M tokens (FineWeb + TinyStories) using modern techniques such as RoPE, GQA, SwiGLU and RMSNorm on NVIDIA RTX A5000 GPU for ~2 hours.
 Model weights along with training results and logs can be found on HuggingFace: https://huggingface.co/Aadit-032/LiteGPT-25M
-Full code for the training can be found on Github: https://github.com/Aaidt/Lite-GPT
+Full code for the training can be found on Github: https://github.com/Aadit032/Lite-GPT
 Why bother building this?
 Building this from scratch taught me a lot about the importance of data during the pre-training phase, it gave me insight into scaling laws and helped me demystify what had previously felt like a black box.
 I got the inspiration from @karpathy NanoGPT which made me think about how I could improve upon it by using a different architecture or creating a different mix of datasets. I left the video feeling excited about the experiments I could run and wanted to push the limits by getting better results with fewer parameters and compute.
