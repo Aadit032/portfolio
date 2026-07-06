@@ -1,6 +1,6 @@
 ---
 title: 'Xcal'
-description: 'Xcal(Excalidraw clone)'
+description: 'Excalidraw clone'
 pubDate: 2026-02-01
 heroImage: '../../assets/blog-placeholder-5.jpg'
 ---

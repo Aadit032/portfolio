@@ -1,6 +1,6 @@
 ---
 title: 'Second brain'
-description: ''
+description: 'AI-powered personal knowledge management platform that combines notes into a single workspace, enabling fast, context-aware conversations with your own knowledge.'
 pubDate: 2026-02-01
 heroImage: '../../assets/blog-placeholder-5.jpg'
 ---

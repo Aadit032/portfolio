@@ -1,6 +1,6 @@
 ---
-title: 'uptiq'
-description: 'Distributed uptime tracker'
+title: 'Uptiq'
+description: 'A distributed uptime monitoring platform that checks website availability across multiple regions, providing real-time status.'
 pubDate: 2026-02-01
 heroImage: '../../assets/blog-placeholder-5.jpg'
 ---
