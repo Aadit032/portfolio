@@ -1,8 +1,8 @@
 ---
 title: 'SmolLM-135M_Med'
-description: 'SmolLM-135M finetuned for medical assistance.'
+description: 'End-to-end pipeline for continued pretraining, supervised fine-tuning, and evaluation of SmolLM-135M on medical datasets.'
 pubDate: 2026-02-01
-heroImage: '../../assets/blog-placeholder-5.jpg'
+heroImage: '../../assets/smolLM-135M_med.png'
 ---
 
 Medical-domain adaptation pipeline for `Aadit-032/SmolLM-135M_MedicalQA-SFT`. The project runs a two-stage training workflow — **continued pre-training (CPT)** on biomedical corpora, then **supervised fine-tuning (SFT)** on medical reasoning Q&A — with comprehensive evaluation at each stage.

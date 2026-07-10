@@ -28,7 +28,7 @@ const reads = [
 	{
 		title: 'Language Models are Unsupervised Multitask Learners',
 		href: 'https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf',
-	},
+	}
 ];
 
 ---
@@ -43,10 +43,10 @@ const reads = [
 			<section class="hero" style={`--hero-image: url(${HeroImage.src})`}>
 				<div class="container hero-grid">
 					<div class="hero-copy">
-						<p class="kicker">Language models, systems, experiments</p>
+						<p class="kicker">Language models, systems, research engineering</p>
 						<h1>Aadit Suryawanshi</h1>
 						<p class="lede">
-							I am currently focused on understanding and building large language models from first principles.
+							I am currently focused on building large language models from first principles.
 							I spend much of my time experimenting with training pipelines, fine-tuning strategies, evaluation
 							methods, and model architectures so I can understand their trade-offs directly.
 						</p>
@@ -54,27 +54,28 @@ const reads = [
 				</div>
 			</section>
 
-			<section class="about-band">
-				<div class="container two-column">
-					<div>
-						<p class="kicker">About me</p>
-						<h2>I like understanding systems underneath the abstractions.</h2>
-					</div>
-					<div class="prose">
-						<p>
-							Over the past year I have spent most of my time building web applications, experimenting with
-							language models, reading research papers, and implementing ML architectures from scratch.
-						</p>
-						<p>
-							I prefer learning by building rather than following tutorials. Most of my projects start with a
-							question I am curious about and end up becoming something larger.
-						</p>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="container lists-grid">
+			<!-- <section class="about-band"> -->
+				<!-- </section> -->
+				
+				<section>
+					<div class="container lists-grid">
+					<!-- <div class="container two-column"> -->
+						<div>
+							<p class="kicker">About me</p>
+						</div>
+						<!-- <div class="prose"> -->
+							<p>I like understanding systems beneath the abstractions. Rather than treating models and frameworks as black boxes, 
+								I enjoy implementing them from first principles to understand how they work and where their trade-offs lie.</p>
+							<p>
+								My interests span the full AI stack—from training and evaluating language models to building distributed backend systems, retrieval pipelines, and full-stack AI applications. 
+								I'm particularly interested in turning research ideas into reliable, scalable products.
+							</p>
+							<p>
+								I learn by building. Most of my projects begin with a question I'm curious about and grow into 
+								end-to-end systems that combine machine learning, software engineering, and practical experimentation.
+							</p>
+						<!-- </div> -->
+					<!-- </div> -->
 					<div>
 						<p class="kicker">Current rabbit holes</p>
 						<ol class="clean-list numbered">
@@ -201,15 +202,16 @@ const reads = [
 		font-weight: 700;
 	}
 	.projects-grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 1rem;
-		align-items: start;
+		columns: 2;
+		column-gap: 1rem;
+	}
+	.projects-grid .project-card {
+		break-inside: avoid;
+		margin-bottom: 1rem;
 	}
 	.project-card {
 		display: grid;
 		gap: 0.8rem;
-		min-height: 100%;
 		border: 1px solid var(--line);
 		border-radius: 12px;
 		padding: 1rem;
@@ -238,7 +240,7 @@ const reads = [
 	}
 	@media (max-width: 760px) {
 		.projects-grid {
-			grid-template-columns: 1fr;
+			columns: 1;
 		}
 	}
 </style>

@@ -1,8 +1,8 @@
 ---
 title: 'LiteGPT'
-description: 'A compact GPT-style model trained from scratch with a focus on architecture and training intuition.'
+description: 'A clean decoder-only Transformer language model (~25M parameters) trained from scratch on a single NVIDIA A5000 GPU.'
 pubDate: 2026-07-04
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/litegpt.png'
 ---
 
 > A clean, educational decoder-only Transformer language model (~25M parameters) trained from scratch on a single NVIDIA A5000 GPU.
