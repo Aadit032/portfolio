@@ -74,30 +74,6 @@ Each shape is represented as structured data, allowing the canvas to be fully re
 
 ---
 
-## Real-Time Collaboration
-
-Drawing operations are synchronized through WebSockets using room-based communication.
-
-```text
-Mouse Event
-      │
-      ▼
-Canvas Action
-      │
-      ▼
-WebSocket Server
-      │
-      ▼
-Broadcast to Room
-      │
-      ▼
-Remote Canvas Update
-```
-
-The synchronization protocol supports multiple concurrent users editing the same whiteboard while maintaining a consistent shared state.
-
----
-
 ## Rendering Pipeline
 
 To maintain smooth interactions, the rendering system:
