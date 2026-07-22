@@ -11,29 +11,29 @@ const projects = (await getCollection("projects")).sort(
 
 const rabbitHoles = [
   "Experimenting with how AI systems can remember, retrieve, and reason over knowledge across conversations and documents.",
-  "Training GPT-style language models from scratch in PyTorch",
-  "Reinforcement learning environments",
   "Fine-tuning open-source LLMs for medical QA",
+  "Training GPT-style language models from scratch in PyTorch",
+  // "Reinforcement learning environments",
 ];
 
-const reads = [
-  {
-    title: "Reinforcement Learning: An Introduction",
-    href: "http://incompleteideas.net/book/the-book-2nd.html"
-  },
-  {
-    title: "GLM-5.2: Built for Long-Horizon Tasks",
-    href: "https://z.ai/blog/glm-5.2",
-  },
-  {
-    title: "Contextual Retrieval by Anthropic",
-    href: "https://www.anthropic.com/engineering/contextual-retrieval",
-  },
-  {
-    title: "Language Models are Unsupervised Multitask Learners",
-    href: "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
-  },
-];
+// const reads = [
+//   {
+//     title: "Reinforcement Learning: An Introduction",
+//     href: "http://incompleteideas.net/book/the-book-2nd.html"
+//   },
+//   {
+//     title: "GLM-5.2: Built for Long-Horizon Tasks",
+//     href: "https://z.ai/blog/glm-5.2",
+//   },
+//   {
+//     title: "Contextual Retrieval by Anthropic",
+//     href: "https://www.anthropic.com/engineering/contextual-retrieval",
+//   },
+//   {
+//     title: "Language Models are Unsupervised Multitask Learners",
+//     href: "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+//   },
+// ];
 ---
 
 <!doctype html>
@@ -46,14 +46,13 @@ const reads = [
       <section class="hero" style={`--hero-image: url(${HeroImage.src})`}>
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="kicker">Language models, systems, research engineering</p>
+            <p class="kicker">AI Agents, Language Models, Systems</p>
             <h1>Aadit Suryawanshi</h1>
             <p class="lede">
-              I am currently focused on building large language models from
-              first principles. I spend much of my time experimenting with
-              training pipelines, fine-tuning strategies, evaluation methods,
-              and model architectures so I can understand their trade-offs
-              directly.
+              I'm currently building AI agents capable of planning, reasoning, and using
+              tools to solve real-world problems. Alongside agent systems, I work on memory
+              architectures, retrieval pipelines, and language model training to better
+              understand and build reliable AI systems end-to-end.
             </p>
           </div>
         </div>
@@ -95,7 +94,7 @@ const reads = [
               {rabbitHoles.map((item) => <li>{item}</li>)}
             </ol>
           </div>
-          <div>
+          <!-- <div>
             <p class="kicker">Recent reads</p>
             <ol class="clean-list numbered">
               {
@@ -112,7 +111,7 @@ const reads = [
                 ))
               }
             </ol>
-          </div>
+          </div> -->
         </div>
       </section>
 
